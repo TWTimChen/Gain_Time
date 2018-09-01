@@ -1,4 +1,6 @@
 
 EDA/mysql_con.py
+EDA/__pycache__
+EDA/.ipynb_checkpoints
 .vscode/tasks.json
 crawler/mysql_con.py
