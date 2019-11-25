@@ -1,7 +1,7 @@
 library(RMySQL) 
 library(tidyverse)
 library(magrittr)
-con = dbConnect(MySQL(), dbname = "gain_time", username="root", password="Ck@04080203")
+con = dbConnect(MySQL(), dbname = "gain_time", username="root", password="********")
 produce = dbGetQuery(con, "SELECT * FROM produce")
 market = dbGetQuery(con, "select * from market")
 crop1 = dbGetQuery(con, "select * from price where produce = 'FA1' and market = '104'")
